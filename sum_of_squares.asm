@@ -1,4 +1,4 @@
-; Compute sum of square from 1 to n (inclusive).
+; Compute sum of squares from 1 to n (inclusive).
 ; **********************************************
 
 section .data
