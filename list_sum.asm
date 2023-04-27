@@ -1,3 +1,5 @@
+; Sums all values in a list.
+
 section .data
 
 EXIT_SUCCESS equ 0
