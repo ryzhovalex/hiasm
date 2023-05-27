@@ -45,7 +45,10 @@ MainLoop:
     ;   rcx = 0, break
     loop MainLoop
 
-    ; cdq - convert double-word in eax into quadword in edx:eax
+    ; cdq - convert double-word in eax into quadword in edx:eax.
+    ;
+    ; In this particular case it is just setting of edx to 0, because it
+    ; previously was set as an example to 8.
     cdq
 
     ; idiv - signed divide A/D - edx:eax for double word, eax = eax / <src>,
